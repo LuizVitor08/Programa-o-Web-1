@@ -1,0 +1,14 @@
+
+body {
+    background-color: #FFCC66;
+    background-image: url("imagens/fundobranco.avif");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p {
+    font: italic bold 200% arial, sans-serif, Times;
+    text-align: center;
+}
+
