@@ -1,0 +1,64 @@
+body {
+    background-color: wheat;
+    background-image: url("imagens/fundo.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.info{
+    margin: 2px;
+}
+
+
+h1 {
+    font: italic bold 200% arial, sans-serif, Times;
+    text-align: center  ;
+}
+p {
+    font: arial bold 100% italic, sans-serif, Times;
+    text-align: left;
+}
+li {
+    font: arial bold 100% italic, sans-serif, Times;
+    text-align:left;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: red;
+}
+
+a:hover {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:blue;
+    background-color: yellow;
+}
+#infoCampus {
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    overflow: scroll;
+    
+}
+
+
+
+#infoCursos {
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+    text-align: center;
+
+}
+#infoSeleção {
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: chartreuse;
+    text-align: center;
+}
