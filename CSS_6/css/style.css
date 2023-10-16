@@ -1,0 +1,31 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.container {
+    display: flex;
+    background-color: blue;
+    height: 500px;
+    /* width: 800px; */
+    /* flex-direction: row-reverse; 
+    flex-wrap: wrap;    */
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.container div {
+    background-color: gray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    
+}
