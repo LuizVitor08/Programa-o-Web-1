@@ -1,0 +1,27 @@
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para tornar o texto legível */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.smile {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.smile-happy {
+    background-image: url('/imagens/smile.png'); 
+}
+
+.smile-neutral {
+    background-image: url('/imagens/smileintermediario.png'); 
+}
+
+.smile-sad {
+    background-image: url('/imagens/smiletriste.png'); 
+}
