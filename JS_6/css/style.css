@@ -1,0 +1,9 @@
+span.mensagem{
+    display: block;
+    padding: 10px;
+     border: 1px solid blue; 
+}
+
+#divContainerMsgs{
+    border: 1px solid black;
+}
