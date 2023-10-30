@@ -1,0 +1,28 @@
+span.mensagem{
+    display: block;
+    padding: 10px;
+    /* border: 1px solid blue; */
+}
+
+#divContainerMsgs{
+    border: 1px solid black;
+    width: 500px;
+    
+}
+
+span.msgMouseOver{
+    color: red;
+    display: block;
+    padding: 10px;
+}
+
+span.msgMouseOut{
+    color: green;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.bttTeste{
+    border-radius: 20px;
+}
