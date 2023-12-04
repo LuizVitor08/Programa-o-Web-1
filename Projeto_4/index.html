@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - 4</title>
+    <link rel="stylesheet" href="css/script.css">
+</head>
+<body>
+    <div class="container">
+        <div class="block" id="block1">
+            <h2>Bloco 1</h2>
+            <div class="row">
+                <div class="box" id="box1">1</div>
+                <div class="box" id="box2">2</div>
+                <div class="box" id="box3">3</div>
+                <div class="box" id="box4">4</div>
+                <div class="box" id="box5">5</div>
+                <div class="box" id="box6">6</div>
+                <div class="box" id="box7">7</div>
+                <div class="box" id="box8">8</div>
+            </div>
+            <div class="row">
+                <div class="box" id="box9">9</div>
+                <div class="box" id="box10">10</div>
+                <div class="box" id="box11">11</div>
+                <div class="box" id="box12">12</div>
+                <div class="box" id="box13">13</div>
+                <div class="box" id="box14">14</div>
+                <div class="box" id="box15">15</div>
+                <div class="box" id="box16">16</div>
+            </div>
+        </div>
+    
+        <div class="block" id="block2">
+            <h2>Bloco 2</h2>
+            <div class="row">
+                <div class="box" id="box17">1</div>
+                <div class="box" id="box18">2</div>
+                <div class="box" id="box19">3</div>
+                <div class="box" id="box20">4</div>
+                <div class="box" id="box21">5</div>
+                <div class="box" id="box22">6</div>
+                <div class="box" id="box23">7</div>
+                <div class="box" id="box24">8</div>
+            </div>
+            <div class="row">
+                <div class="box" id="box25">9</div>
+                <div class="box" id="box26">10</div>
+                <div class="box" id="box27">11</div>
+                <div class="box" id="box28">12</div>
+                <div class="box" id="box29">13</div>
+                <div class="box" id="box30">14</div>
+                <div class="box" id="box31">15</div>
+                <div class="box" id="box32">16</div>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <label for="block">Escolha o bloco: </label> 
+        <input type="number" id="block" min="1" max="2" value="1">
+        <br>
+        <label for="box">Escolha a posição da caixa: </label>
+        <input type="number" id="box" min="1" max="16" value="1">
+        <br>
+        <label>Escolha a cor: </label>
+        <label><input type="radio" name="color" value="blue"> Azul</label>
+        <label><input type="radio" name="color" value="red"> Vermelho</label>
+        <label><input type="radio" name="color" value="green"> Verde</label>
+    
+        <button onclick="changeColor()">Executar</button>
+    </div>
+<script src="js/script.js"></script>    
+
+</body>
+</html>
