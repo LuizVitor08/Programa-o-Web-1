@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link  href="css/style.css"  rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <h1>Simulador de Alocação de Memória</h1>
+  
+    <div id="memory"></div>
+  
+    <div id="demand">
+      <label for="demandInput">Demanda:</label>
+      <input type="number" id="demandInput" min="1" value="1">
+      <button onclick="simulateAllocation()">Simular</button>
+      <button onclick="resetProgram()">Reiniciar</button>
+      <br>
+      <input type="radio" name="algorithm" value="firstFit" checked> First Fit
+      <input type="radio" name="algorithm" value="bestFit"> Best Fit
+      <input type="radio" name="algorithm" value="worstFit"> Worst Fit
+    </div>
+  </div>
+
+  
+
+    
+  <script src="js/script.js"></script>
+</body>
+</html>
